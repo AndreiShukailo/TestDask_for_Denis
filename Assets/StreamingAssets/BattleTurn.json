@@ -1,0 +1,66 @@
+{
+    "id": "11111",
+    "teams": [
+        {
+            "name": null,
+            "leaderId": "user_1"
+        },
+        {
+            "name": null,
+            "leaderId": "user_2"
+        }
+    ],
+    "rounds": [
+        {
+            "id": "22222",
+            "number": 1,
+            "battleId": "3333",
+            "turns": [
+                {
+                    "clientId": "user_1",
+                    "attack": "TOP",
+                    "defense": "BOT"
+                },
+                {
+                    "clientId": "user_2",
+                    "attack": "MID",
+                    "defense": "BOT"
+                }
+            ]
+        },
+        {
+            "id": "22222",
+            "number": 1,
+            "battleId": "3333",
+            "turns": [
+                {
+                    "clientId": "user_1",
+                    "attack": "BOT",
+                    "defense": "TOP"
+                },
+                {
+                    "clientId": "user_2",
+                    "attack": "TOP",
+                    "defense": "MID"
+                }
+            ]
+        },
+        {
+            "id": "22222",
+            "number": 1,
+            "battleId": "3333",
+            "turns": [
+                {
+                    "clientId": "user_1",
+                    "attack": "TOP",
+                    "defense": "MID"
+                },
+                {
+                    "clientId": "user_2",
+                    "attack": "MID",
+                    "defense": "TOP"
+                }
+            ]
+        }
+    ]
+}
